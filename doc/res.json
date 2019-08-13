@@ -1,0 +1,32 @@
+{
+  "errorCode": 0,
+  "errorMessage": "",
+  "ok": true,
+  "data": {
+    "body": "x=1&y=2",
+    "headerParameters": {},
+    "headers": {
+      "accept": "*/*",
+      "content-length": "7",
+      "content-type": "application/x-www-form-urlencoded",
+      "endpoint-timeout": "15",
+      "host": "service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com",
+      "user-agent": "curl/7.61.1",
+      "x-anonymous-consumer": "true",
+      "x-qualifier": "$LATEST"
+    },
+    "httpMethod": "POST",
+    "path": "/weibo/ccc",
+    "pathParameters": {},
+    "queryString": {},
+    "queryStringParameters": {},
+    "requestContext": {
+      "httpMethod": "ANY",
+      "identity": {},
+      "path": "/weibo",
+      "serviceId": "service-75ph8ybo",
+      "sourceIp": "58.60.1.25",
+      "stage": "release"
+    }
+  }
+}

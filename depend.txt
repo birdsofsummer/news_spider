@@ -1,0 +1,6 @@
+rxpy
+bs4
+numpy
+graphene
+promise
+

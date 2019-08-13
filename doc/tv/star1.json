@@ -1,0 +1,435 @@
+{
+  "date": 1564848000000,
+  "topList": [
+    {
+      "status": 0,
+      "actorBarrageTotal": 5292,
+      "tvList": [
+        {
+          "contributionRate": 0.931851432938906,
+          "name": "亲爱的，热爱的",
+          "weight": 1,
+          "playTimeWeight": 197677316,
+          "playTimesPredicted": 197677316,
+          "actorCommentNum": 1366,
+          "actorBarrageNum": 4636,
+          "actorOrder": 2
+        },
+        {
+          "contributionRate": 0.06814856706109398,
+          "name": "河神",
+          "weight": 1,
+          "playTimeWeight": 4159635,
+          "playTimesPredicted": 4159635,
+          "actorCommentNum": 87,
+          "actorBarrageNum": 656,
+          "actorOrder": 1
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 97.52594099583145,
+      "onListDays": 26,
+      "totalWeightPredicted": 0,
+      "actor": "李现",
+      "nameID": 169483,
+      "actorCommentTotal": 1453,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": 0.08,
+        "baidu": 33.56,
+        "360Trend": -0.01,
+        "360": 26.09
+      }
+    },
+    {
+      "status": 1,
+      "actorBarrageTotal": 4690,
+      "tvList": [
+        {
+          "contributionRate": 0.7094605772893225,
+          "name": "亲爱的，热爱的",
+          "weight": 1,
+          "playTimeWeight": 197677316,
+          "playTimesPredicted": 197677316,
+          "actorCommentNum": 899,
+          "actorBarrageNum": 1649,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.2719231809205738,
+          "name": "香蜜沉沉烬如霜",
+          "weight": 1,
+          "playTimeWeight": 14487609,
+          "playTimesPredicted": 14487609,
+          "actorCommentNum": 126,
+          "actorBarrageNum": 2948,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.018616241790103676,
+          "name": "欢乐颂2",
+          "weight": 0.5,
+          "playTimeWeight": 1621200.5,
+          "playTimesPredicted": 3242401,
+          "actorCommentNum": 30,
+          "actorBarrageNum": 93,
+          "actorOrder": 4
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 95.63327974124539,
+      "onListDays": 367,
+      "totalWeightPredicted": 0,
+      "actor": "杨紫",
+      "nameID": 30784,
+      "actorCommentTotal": 1055,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": -0.52,
+        "baidu": 34.57,
+        "360Trend": 0.13,
+        "360": 26.76
+      }
+    },
+    {
+      "status": -1,
+      "actorBarrageTotal": 30110,
+      "tvList": [
+        {
+          "contributionRate": 1,
+          "name": "全职高手",
+          "weight": 1,
+          "playTimeWeight": 47684420,
+          "playTimesPredicted": 47684420,
+          "actorCommentNum": 1048,
+          "actorBarrageNum": 30110,
+          "actorOrder": 1
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 93.62408392464991,
+      "onListDays": 12,
+      "totalWeightPredicted": 0,
+      "actor": "杨洋",
+      "nameID": 14644,
+      "actorCommentTotal": 1048,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": -0.46,
+        "baidu": 33.87,
+        "360Trend": -0.37,
+        "360": 25.37
+      }
+    },
+    {
+      "status": 0,
+      "actorBarrageTotal": 23030,
+      "tvList": [
+        {
+          "contributionRate": 0.8127526708828383,
+          "name": "加油，你是最棒的",
+          "weight": 1,
+          "playTimeWeight": 22277278,
+          "playTimesPredicted": 22277278,
+          "actorCommentNum": 923,
+          "actorBarrageNum": 21199,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.17587064331662675,
+          "name": "香蜜沉沉烬如霜",
+          "weight": 1,
+          "playTimeWeight": 14487609,
+          "playTimesPredicted": 14487609,
+          "actorCommentNum": 65,
+          "actorBarrageNum": 1697,
+          "actorOrder": 2
+        },
+        {
+          "contributionRate": 0.007965353508022518,
+          "name": "楚乔传",
+          "weight": 0.1,
+          "playTimeWeight": 428253.7,
+          "playTimesPredicted": 4282537,
+          "actorCommentNum": 10,
+          "actorBarrageNum": 56,
+          "actorOrder": 5
+        },
+        {
+          "contributionRate": 0.0034113322925124253,
+          "name": "欢乐颂2",
+          "weight": 0.01,
+          "playTimeWeight": 32424.010000000002,
+          "playTimesPredicted": 3242401,
+          "actorCommentNum": 6,
+          "actorBarrageNum": 78,
+          "actorOrder": 10
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 91.9398459576168,
+      "onListDays": 405,
+      "totalWeightPredicted": 0,
+      "actor": "邓伦",
+      "nameID": 14167,
+      "actorCommentTotal": 1004,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": -0.87,
+        "baidu": 34.77,
+        "360Trend": -0.3,
+        "360": 26.14
+      }
+    },
+    {
+      "status": 0,
+      "actorBarrageTotal": 11821,
+      "tvList": [
+        {
+          "contributionRate": 0.9061706228137606,
+          "name": "陈情令",
+          "weight": 1,
+          "playTimeWeight": 44189868,
+          "playTimesPredicted": 44189868,
+          "actorCommentNum": 764,
+          "actorBarrageNum": 11569,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.09382937718623946,
+          "name": "哦！我的皇帝陛下",
+          "weight": 0.5,
+          "playTimeWeight": 2139410.5,
+          "playTimesPredicted": 4278821,
+          "actorCommentNum": 208,
+          "actorBarrageNum": 252,
+          "actorOrder": 3
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 89.52214978601405,
+      "onListDays": 39,
+      "totalWeightPredicted": 0,
+      "actor": "肖战",
+      "nameID": 139986,
+      "actorCommentTotal": 972,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": 1.19,
+        "baidu": 33.51,
+        "360Trend": 0.2,
+        "360": 23.72
+      }
+    },
+    {
+      "status": 0,
+      "actorBarrageTotal": 15502,
+      "tvList": [
+        {
+          "contributionRate": 0.9722995535011232,
+          "name": "请赐我一双翅膀",
+          "weight": 1,
+          "playTimeWeight": 62178321,
+          "playTimesPredicted": 62178321,
+          "actorCommentNum": 264,
+          "actorBarrageNum": 15478,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.027700446498876805,
+          "name": "芸汐传",
+          "weight": 1,
+          "playTimeWeight": 4702900,
+          "playTimesPredicted": 4702900,
+          "actorCommentNum": 3,
+          "actorBarrageNum": 24,
+          "actorOrder": 1
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 88.04586562550766,
+      "onListDays": 27,
+      "totalWeightPredicted": 0,
+      "actor": "鞠婧祎",
+      "nameID": 138498,
+      "actorCommentTotal": 267,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": 0.57,
+        "baidu": 34.48,
+        "360Trend": 0.11,
+        "360": 23.92
+      }
+    },
+    {
+      "status": 2,
+      "actorBarrageTotal": 12267,
+      "tvList": [
+        {
+          "contributionRate": 0.9700038383310378,
+          "name": "时间都知道",
+          "weight": 1,
+          "playTimeWeight": 38849824,
+          "playTimesPredicted": 38849824,
+          "actorCommentNum": 616,
+          "actorBarrageNum": 12189,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.029996161668962133,
+          "name": "锦绣未央",
+          "weight": 1,
+          "playTimeWeight": 3176266,
+          "playTimesPredicted": 3176266,
+          "actorCommentNum": 5,
+          "actorBarrageNum": 78,
+          "actorOrder": 1
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 85.76610449792663,
+      "onListDays": 19,
+      "totalWeightPredicted": 0,
+      "actor": "唐嫣",
+      "nameID": 151651,
+      "actorCommentTotal": 621,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": 0.78,
+        "baidu": 36.49,
+        "360Trend": 0.12,
+        "360": 28.41
+      }
+    },
+    {
+      "status": -1,
+      "actorBarrageTotal": 22554,
+      "tvList": [
+        {
+          "contributionRate": 0.9175242185477739,
+          "name": "天雷一部之春花秋月",
+          "weight": 1,
+          "playTimeWeight": 15356388,
+          "playTimesPredicted": 15356388,
+          "actorCommentNum": 241,
+          "actorBarrageNum": 22525,
+          "actorOrder": 2
+        },
+        {
+          "contributionRate": 0.0824757814522261,
+          "name": "哦！我的皇帝陛下",
+          "weight": 1,
+          "playTimeWeight": 4278821,
+          "playTimesPredicted": 4278821,
+          "actorCommentNum": 7,
+          "actorBarrageNum": 29,
+          "actorOrder": 2
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 84.27166782868403,
+      "onListDays": 30,
+      "totalWeightPredicted": 0,
+      "actor": "赵露思",
+      "nameID": 329604,
+      "actorCommentTotal": 248,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": -0.01,
+        "baidu": 32.45,
+        "360Trend": 0.42,
+        "360": 22.99
+      }
+    },
+    {
+      "status": 1,
+      "actorBarrageTotal": 9951,
+      "tvList": [
+        {
+          "contributionRate": 0.5599138364971159,
+          "name": "归还世界给你",
+          "weight": 1,
+          "playTimeWeight": 30585519,
+          "playTimesPredicted": 30585519,
+          "actorCommentNum": 244,
+          "actorBarrageNum": 6610,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.4109500730236398,
+          "name": "时间都知道",
+          "weight": 0.5,
+          "playTimeWeight": 19424912,
+          "playTimesPredicted": 38849824,
+          "actorCommentNum": 294,
+          "actorBarrageNum": 3321,
+          "actorOrder": 3
+        },
+        {
+          "contributionRate": 0.026643267045804515,
+          "name": "绝路逢生",
+          "weight": 1,
+          "playTimeWeight": 3541175,
+          "playTimesPredicted": 3541175,
+          "actorCommentNum": 7,
+          "actorBarrageNum": 12,
+          "actorOrder": 1
+        },
+        {
+          "contributionRate": 0.0024928234334398954,
+          "name": "欢乐颂2",
+          "weight": 0.05,
+          "playTimeWeight": 162120.05000000002,
+          "playTimesPredicted": 3242401,
+          "actorCommentNum": 2,
+          "actorBarrageNum": 8,
+          "actorOrder": 7
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 82.64533410789873,
+      "onListDays": 37,
+      "totalWeightPredicted": 0,
+      "actor": "杨烁",
+      "nameID": 31853,
+      "actorCommentTotal": 547,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": 0.1,
+        "baidu": 37.24,
+        "360Trend": -0.08,
+        "360": 27.92
+      }
+    },
+    {
+      "status": -2,
+      "actorBarrageTotal": 8427,
+      "tvList": [
+        {
+          "contributionRate": 1,
+          "name": "请赐我一双翅膀",
+          "weight": 1,
+          "playTimeWeight": 62178321,
+          "playTimesPredicted": 62178321,
+          "actorCommentNum": 365,
+          "actorBarrageNum": 8427,
+          "actorOrder": 2
+        }
+      ],
+      "totalWeightPlayTimes": 0,
+      "screenIndex": 79.68480245894932,
+      "onListDays": 27,
+      "totalWeightPredicted": 0,
+      "actor": "炎亚纶",
+      "nameID": 10327,
+      "actorCommentTotal": 365,
+      "isNew": 0,
+      "averageAge": {
+        "baiduTrend": 1.55,
+        "baidu": 34.58,
+        "360Trend": 0.29,
+        "360": 24.53
+      }
+    }
+  ]
+}

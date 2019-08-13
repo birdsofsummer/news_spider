@@ -1,0 +1,32 @@
+install(){
+    pip3 install scf
+    p="./depend.txt"
+    m="./vendor"
+    [ -d $m ] || md $m
+    cat $p
+    cat $p|xargs -Ixx -n1 echo pip3 install xx -t $m
+}
+
+test(){
+    base="https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo"
+    path="/hack_news"
+    u=$base$path
+    curl $u
+}
+
+upload(){
+    scf deploy -n weibo --skip-event -f
+    test
+}
+
+
+case $* in
+    "")  upload
+    ;;
+    "i")  install
+    ;;
+    "t")  test
+    ;;
+    *)  echo '....'
+    ;;    
+esac
