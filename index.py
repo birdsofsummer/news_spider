@@ -1,7 +1,6 @@
+import json
 from so import *
 from app import *
-import json
-from spider import hack_news
 import spider as s
 import env
 
@@ -20,7 +19,7 @@ def main(event,content):
 
     @app.route(path="/vbc",methods=["GET","POST"])
     @json_dec
-    def hack_news_handler(event,content={}):
+    def vbc_handler(event,content={}):
         queryString=event["queryString"]
         n=queryString.get("n") or 3
         n1=int(n)
@@ -28,7 +27,7 @@ def main(event,content):
 
     @app.route(path="/huanqiu",methods=["GET","POST"])
     @json_dec
-    def hack_news_handler(event,content={}):
+    def huanqiu_handler(event,content={}):
         queryString=event["queryString"]
         n=queryString.get("n") or 12
         n1=int(n)
