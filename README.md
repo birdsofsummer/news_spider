@@ -1,15 +1,14 @@
-#  scf新闻爬虫
+#  scf 新闻爬虫
 
 ## web
     [news](https://douban.qing.workers.dev/)
 
 ## 站点
-
-     [hackernews][1]
-     [sputniknews][2]
-     [reuters][3]
-     [环球网][4]
-     [微博热搜][5]
+    [hackernews][1]
+    [sputniknews][2]
+    [reuters][3]
+    [环球网][4]
+    [微博热搜][5]
 
     [1]: http://hackernews.betacat.io/
     [2]: http://sputniknews.cn/
@@ -29,11 +28,17 @@
 
     [base](https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/)
 
-    + [/hack_news](https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/hack_news)
-    + [/sputni](https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/sputni)
-    + [/vbc?n=1](https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/vbc?n=2)    
-    + [/huanqiu?n=1](https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/huanqiu?n=1)
-    + [/news](https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/news)
+    +  /hack_news
+    +  /sputni
+    +  /vbc?n=1
+    +  /huanqiu?n=1
+    +  /news    
+
+    + https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/hack_news
+    + https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/sputni
+    + https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/vbc?n=2    
+    + https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/huanqiu?n=1
+    + https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/news
 
 ```shell
     #安装 

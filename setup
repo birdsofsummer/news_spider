@@ -4,7 +4,7 @@ install(){
     m="./vendor"
     [ -d $m ] || md $m
     cat $p
-    cat $p|xargs -Ixx -n1 echo pip3 install xx -t $m
+    cat $p|xargs -Ixx -n1  pip3 install xx -t $m
 }
 
 test(){
