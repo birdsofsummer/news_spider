@@ -3,4 +3,6 @@ bs4
 numpy
 graphene
 promise
+pymongo
+dnspython
 

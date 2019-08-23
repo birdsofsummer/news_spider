@@ -2,19 +2,46 @@ import re,sys, time, os, json, random
 from ajax import get1
 from task import run1
 
+en_news={
+        "sputni":"https://sputniknews.com/export/rss2/archive/index.xml",
+        "usni":"https://news.usni.org/feed",
+        "nationalreview":"https://www.nationalreview.com/news/",
+        "msn":"https://www.msn.com/en-us/news/",
+        "stripes":"https://www.stripes.com/news",
+        "cnn":"https://edition.cnn.com/",
+        "hill":"https://thehill.com/",
+}
+
 #curl https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/hack_news
 def hack_news():
     from parser.hack_news import  hack_news_parser
     u="http://hackernews.betacat.io/"
     r=get1(u)
     return hack_news_parser.hack_news_parser(r)
+
 # curl https://service-75ph8ybo-1252957949.ap-hongkong.apigateway.myqcloud.com/release/weibo/sputni
 def sputniknews():
     from parser.sputniknews.main  import parse
-    u="http://sputniknews.cn/export/rss2/archive/index.xml"
-    r=get1(u)
+    u=["http://sputniknews.cn/export/rss2/archive/index.xml","https://sputniknews.com/export/rss2/archive/index.xml"]
+    r=get1(u[0])
     return parse(r)
-#
+
+
+def rt_news():
+    u={
+	"general": "https://www.rt.com/rss/",
+	"news": "https://www.rt.com/rss/news/",
+	"usa": "https://www.rt.com/rss/usa/",
+	"uk": "https://www.rt.com/rss/uk/",
+	"sport": "https://www.rt.com/rss/sport/",
+	"russia": "https://www.rt.com/rss/russia/",
+	"business": "https://www.rt.com/rss/business/",
+	"op-ed": "https://www.rt.com/rss/op-ed/",
+	"rt360": "https://www.rt.com/rss/applenews/rt360/",
+	"newsline": "https://www.rt.com/rss/newsline/",
+	"podcasts": "https://www.rt.com/rss/podcasts/"
+    }
+
 #u="http://cn.reuters.com/rssFeed/vbc_homepagetopnews/"
 def reutersmedia(n=3):
     from parser.vbc.main  import parse
@@ -111,6 +138,24 @@ def huanqiu(n=12):
        u=kk[n1]
        r=get1(u)
        return parse(r)
+
+
+
+def nationalreview():
+    pass
+
+def msn():
+    pass
+
+def usni():
+    pass
+
+def stripes():
+    pass
+
+def cnn():
+    pass
+
 
 def news():
     t=[sputniknews,reutersmedia,huanqiu]

@@ -8,12 +8,12 @@ Resources:
         Description: news_spider
         Environment:
           Variables:
-            ENV_FIRST: env1
+            mongo: "mongodb+srv://xxxxxxxxxx"
             ENV_SECOND: env2
         Handler: index.main
         MemorySize: 128
         Runtime: Python3.6
-        Timeout: 3
+        Timeout: 10
         #VpcConfig:
         #    VpcId: 'vpc-qdqc5k2p'
         #    SubnetId: 'subnet-pad6l61i'

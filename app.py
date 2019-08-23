@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
-
 import sys
 import logging
 import datetime
 import time
 import requests
 import json
+sys.path.append("/var/user/vendor")
+
+from bson.json_util import dumps,loads,RELAXED_JSON_OPTIONS
+
 import functools
 
 def extend(a,b):
@@ -41,6 +44,19 @@ def res_json(d={}):
         "body": json.dumps(r),
     }
 
+def res_bson(d={}):
+    h= {"Content-Type":"application/json; charset=utf-8"}
+    h1=extend(h,cors_headers)
+    r={"errorCode":0,"errorMessage":"","ok":True,"data":d}
+    return {
+        "isBase64Encoded": False,
+        "statusCode": 200,
+        "headers":h1,
+        "body": dumps(r),
+    }
+
+
+
 def json_dec(f):
     def wrapper(*args, **kwargs):
         start_time = time.time()
@@ -52,6 +68,13 @@ def json_dec(f):
         print("time is %d ms" % execution_time)
         return res_json(r)
     return wrapper
+
+def bson_dec(f):
+    def wrapper(*args, **kwargs):
+        r=f(*args, **kwargs)
+        return res_bson(r)
+    return wrapper
+
 
 def deco01(f):
     def wrapper(*args, **kwargs):
