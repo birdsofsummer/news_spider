@@ -1,4 +1,4 @@
-#  scf 新闻爬虫
+#  severless  新闻爬虫
 
 ## web
     [news](https://douban.qing.workers.dev/)
