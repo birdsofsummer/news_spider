@@ -8,12 +8,12 @@ Resources:
         Description: news_spider
         Environment:
           Variables:
-            mongo: "mongodb+srv://qing:qing@cluster0-zakvg.mongodb.net/test?retryWrites=true&w=majority"
-            Region: "ap-hongkong"
-            Bucket: 'zzz-1252957949'
-            SecretId: "AKIDlQ2ZnrCd2iI1bx5F9i9dtSn374tsacZc"
-            SecretKey: "aO7QfZBKGNROEtcI7GONLD2H1a1Ll17B"
-            Prefix: "douban"
+            mongo: "mongodb+srv://*****************"
+            Region: "*********"
+            Bucket: '***********'
+            SecretId: "***********"
+            SecretKey: "*************"
+            Prefix: "*******"
         Handler: index.main
         MemorySize: 128
         Runtime: Python3.6
