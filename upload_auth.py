@@ -3,6 +3,7 @@ import json
 import os
 from sts.sts import Sts
 import config
+
 cfg=config.upload_auth_config
 
 #os.environ
@@ -20,11 +21,6 @@ def main():
         print(e)
     finally:
         return r
-
-
-
-
-
 
 # 密钥的权限列表。简单上传和分片需要以下的权限，其他权限列表请看 https://cloud.tencent.com/document/product/436/31923
 ddd=[

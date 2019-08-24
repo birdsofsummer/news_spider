@@ -1,5 +1,11 @@
 import os
 
+SecretId=os.environ["SecretId"]
+SecretKey=os.environ["SecretKey"]
+Bucket=os.environ["Bucket"]
+Region=os.environ["Region"]
+Prefix=os.environ["Prefix"]
+
 CONFIG={
 	"db_url": os.environ['mongo'],
 	"db": "test",
@@ -11,28 +17,27 @@ CONFIG={
 	"ApiId": "api-jvucznm6",
 	"domain": "service-afbgj3k2-1252957949.ap-hongkong.apigateway.myqcloud.com",
 	"cos_cfg": {
-		"SecretId": "AKIDlQ2ZnrCd2iI1bx5F9i9dtSn374tsacZc",
-		"SecretKey": "aO7QfZBKGNROEtcI7GONLD2H1a1Ll17B",
-		"Bucket": "ttt-1252957949",
-		"Region": "ap-hongkong",
-		"Prefix": "douban"
+		"SecretId": SecretId,
+		"SecretKey": SecretKey,
+		"Bucket": Bucket,
+		"Region": Region,
+		"Prefix": Prefix
 	}
 }
 
-BUK='zzz-1252957949'
 cos_conn_cfg= {
-            'SecretId': 'AKIDlQ2ZnrCd2iI1bx5F9i9dtSn374tsacZc',
-            'SecretKey': 'aO7QfZBKGNROEtcI7GONLD2H1a1Ll17B',
-            'Region': 'ap-hongkong',
+            'SecretId': SecretId,
+            'SecretKey': SecretKey,
+            'Region': Region,
             'Token': None,
 }
 
 upload_auth_config= {
         'duration_seconds': 1800,
-        'secret_id': 'AKIDlQ2ZnrCd2iI1bx5F9i9dtSn374tsacZc',
-        'secret_key': 'aO7QfZBKGNROEtcI7GONLD2H1a1Ll17B',
-        'bucket': BUK,
-        'region': 'ap-hongkong',
+        'secret_id': SecretId,
+        'secret_key': SecretKey,
+        'bucket': Bucket,
+        'region': Region,
         'allow_prefix': '*',
         'allow_actions': ["*"],
     }

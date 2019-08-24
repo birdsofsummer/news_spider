@@ -1,8 +1,10 @@
-rxpy
 bs4
+lxml
+cos-python-sdk-v5
+qcloud-python-sts
+pymongo
+dnspython
+rxpy
 numpy
 graphene
 promise
-pymongo
-dnspython
-

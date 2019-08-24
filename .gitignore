@@ -7,6 +7,9 @@ node_modules/
 public/
 .deploy*/
 tmp/*
+template.yaml
+
+
 __pycache__/*
 */__pycache__/*
 vendor/*

@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
 import config
-BUCKET=config.BUK
+BUCKET=config.BUCKET
 
 def conn():
    d=config.cos_conn_cfg
